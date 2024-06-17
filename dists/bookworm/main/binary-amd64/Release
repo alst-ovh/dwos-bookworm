@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: dwOS
+Label: dwOS
+Architecture: amd64
+Description: dwOS Repository

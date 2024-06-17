@@ -1,0 +1,258 @@
+Package: dw-cups
+Version: 2.4.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 56
+Depends: dw-setup, dw-docker, dw-avahi, dw-apache2
+Conflicts: cups
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-cups/dw-cups_2.4.2-1_amd64.deb
+Size: 5808
+SHA256: 45a17dda175b58b609a4359d0570b0b52ef278968399b97c49e00a2bd7a0df89
+SHA1: 36c86fa69a58c084421728bc0417e284b45f8e2f
+MD5sum: 73038cdc5bd9585d751f840b4da97d1b
+Description: The dawel docker CUPS Printing System
+
+Package: dw-ghost
+Version: 5.75.3-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-docker, dw-apache2, dw-ghost-backup
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-ghost/dw-ghost_5.75.3-1_amd64.deb
+Size: 7104
+SHA256: 5eeb228ba61600eeea8a399c801f4659510e478edb14c84790b8a3a016f2fef5
+SHA1: 10ac19667f0da2c4e6053b52fb20ec2f554a72fc
+MD5sum: bacbeb9417e265b74d49fa2c08677ba6
+Description: The dawel docker Ghost blog
+
+Package: dw-ghost-backup
+Version: 0.0.2-2
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 65
+Depends: dw-setup, dw-ghost, gzip
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-ghost-backup/dw-ghost-backup_0.0.2-2_amd64.deb
+Size: 7692
+SHA256: f9c9e24642ee9da86efba94147747a553a9d2b8a53ddf45d1caeea58ab2c76d9
+SHA1: cedcb2c982b7588a6fdda44d7e90986f992aca10
+MD5sum: 60630127d37c7d483ab2fa9a28d69722
+Description: The dawel Ghost Backup
+
+Package: dw-gitea
+Version: 1.21.4-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 54
+Depends: dw-setup, dw-docker, dw-apache2, dw-gitea-backup
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-gitea/dw-gitea_1.21.4-1_amd64.deb
+Size: 5904
+SHA256: 48d3ce433212c2d66b420dbb44e551115cf36f59b0f7a38cd52a1e192c7a5607
+SHA1: 7eda5c96b97e1b357248c9ce3483b5c52d7c7d4f
+MD5sum: 4c7e5a666b5e7c95c96beb4258ae7e96
+Description: The dawel docker Gitea
+
+Package: dw-gitea-backup
+Version: 0.0.2-2
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-gitea
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-gitea-backup/dw-gitea-backup_0.0.2-2_amd64.deb
+Size: 7144
+SHA256: 25be71d608edf059eda428c7c2fb93e54fee30156dc8988f8b40cde90b31569b
+SHA1: f3d8e8ae42784c452cc8ed3d9176268224a41bf2
+MD5sum: 850a88ec1a7eac293819fe316447baaa
+Description: The dawel Gitea Backup
+
+Package: dw-jellyfin
+Version: 10.8.13-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 53
+Depends: dw-setup, dw-docker, dw-apache2, dw-jellyfin-backup
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-jellyfin/dw-jellyfin_10.8.13-1_amd64.deb
+Size: 5868
+SHA256: efd4b86e785e62d9966491605a4c3a46582b80de308ec7364059ad0736a99590
+SHA1: 77a3e2c7296d44ef1f892464ba2ae884463c8389
+MD5sum: 67712520d90017b46ea16eda694a8ff3
+Description: The dawel docker Jellyfin
+
+Package: dw-jellyfin-backup
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-jellyfin
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-jellyfin-backup/dw-jellyfin-backup_0.0.2-1_amd64.deb
+Size: 7168
+SHA256: cd96e75a33deba2e171641612d10d5ee99e1f02b1198bd47dc6977f35c942313
+SHA1: f4301a904b81eb4643c9513c8b65b96a7757629e
+MD5sum: c9bc75fef3cee3d833365e31315df3d4
+Description: The dawel Jellyfin Backup
+
+Package: dw-nextcloud
+Version: 28.0.1-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 56
+Depends: dw-setup, dw-docker, dw-apache2
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-nextcloud/dw-nextcloud_28.0.1-1_amd64.deb
+Size: 6276
+SHA256: 90348424acede51158155bc99be6a234538cf2b895f34b035bb47c74fc900115
+SHA1: 6557a5b346522b105fb7c56c3b133e2151c3b7c0
+MD5sum: 87b8a2f87b84d178d13c1f8cce87ce32
+Description: The dawel docker Nextcloud
+
+Package: dw-pihole
+Version: 2024.02.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 76
+Depends: dw-setup, dw-docker, dw-apache2, dw-pihole-backup
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-pihole/dw-pihole_2024.02.0-1_amd64.deb
+Size: 10136
+SHA256: 393378905afcb6e175d1933848b75947aaf56bba52cc35fc4582bdea0eaa6924
+SHA1: 37b74174809bfdf96b136ba2bc1652dda48fb2fe
+MD5sum: 54aa48f36a7bd7b9a418b30cffdd84fb
+Description: The dawel docker Pi-Hole
+
+Package: dw-pihole-backup
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-pihole
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-pihole-backup/dw-pihole-backup_0.0.2-1_amd64.deb
+Size: 7140
+SHA256: 4e93b9ed4ce2312722480cfc69487b43ba50c986d8c6ff2b05758652a6548b91
+SHA1: 6991d1b283efffc1772bc1c5efb37ec9a80b1586
+MD5sum: 0a2130522a0ceda673d13e2cb3c664c7
+Description: The dawel Pihole Backup
+
+Package: dw-portainer
+Version: 2.20.1-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 53
+Depends: dw-setup, dw-docker, dw-apache2, dw-portainer-backup
+Conflicts: dw-portainer-agent
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-portainer/dw-portainer_2.20.1-1_amd64.deb
+Size: 5716
+SHA256: 36180a657112072e712644433ea591ed741488ef3386386bc2c1d167e1e5b875
+SHA1: f94af7d8a1ce2ce1fc7281a7817987f4bbc67f70
+MD5sum: 0435eeb0f58ebfe3badc360f1c51ea40
+Description: The dawel docker Portainer
+
+Package: dw-portainer-agent
+Version: 2.20.1-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 54
+Depends: dw-setup, dw-docker
+Conflicts: dw-portainer
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-portainer-agent/dw-portainer-agent_2.20.1-1_amd64.deb
+Size: 5728
+SHA256: 48fcacd78b75486687c655bdcc30abe3efd1b407724093e141da34751a8bd9ff
+SHA1: aeeb1cec17f2f8a6788ce0c50e4366529b1f322b
+MD5sum: c21bd6d5325c8cbca8e47f2b0b21b6d1
+Description: The dawel docker Portainer Agent
+
+Package: dw-portainer-backup
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-portainer
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-portainer-backup/dw-portainer-backup_0.0.2-1_amd64.deb
+Size: 7144
+SHA256: ffb8841e9cf65795793784e0902b7228963de250e876c17887497ad3332fde22
+SHA1: 8288a6f2438920d22ce26803dbf5625d1235ed46
+MD5sum: b051afceb35df5d8c9f1a63561585423
+Description: The dawel Portainer Backup
+
+Package: dw-traccar
+Version: 5.12.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 76
+Depends: dw-setup, dw-docker, dw-apache2, dw-traccar-backup
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-traccar/dw-traccar_5.12.0-1_amd64.deb
+Size: 9496
+SHA256: a4dd08c999b356d9b257d3a78ae495fa6f01b6291edd386432f232456e7536c4
+SHA1: caf0082d48c1c2a9f8c1aa2290d1771e3d11091c
+MD5sum: 7142faa19837d5b19a3d6ae660a7303e
+Description: The dawel traccar server
+
+Package: dw-traccar-backup
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 65
+Depends: dw-setup, dw-traccar, gzip
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-traccar-backup/dw-traccar-backup_0.0.2-1_amd64.deb
+Size: 7656
+SHA256: 84d7fd78e7f6fa5b95bf84003475070ad1ca231905b09ba71d8ac316b2468f79
+SHA1: 600c75d78fb0bdd7ecb96414d8d574a572360892
+MD5sum: f49eea239a57a81e7f89c1ff3f86367b
+Description: The dawel Traccar Backup
+
+Package: dw-vaultwarden
+Version: 1.30.4-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 82
+Depends: dw-setup, dw-docker, dw-apache2, dw-vaultwarden-backup, openssl, argon2
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-vaultwarden/dw-vaultwarden_1.30.4-1_amd64.deb
+Size: 14796
+SHA256: 26aaa2e27471e5b499b7fb3b1a9f0e0406d8ce51963b9aedff0877dd866b8548
+SHA1: d8ebc9fa824a1fb2d43af9320a583d341c3bbd03
+MD5sum: 53ff2bc9bfb0da6974201a787b107119
+Description: The dawel docker Vaultwarden
+
+Package: dw-vaultwarden-backup
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, dw-vaultwarden, gzip
+Priority: extra
+Section: system
+Filename: pool/docker/d/dw-vaultwarden-backup/dw-vaultwarden-backup_0.0.2-1_amd64.deb
+Size: 7200
+SHA256: 0600a15db3a073ada99798ce99ba13fa552b61ef8fad18a8e31c8df2578ef48d
+SHA1: f7d972511bdd50a7376cf2f89f3913ddf3ea8d84
+MD5sum: e634c7b05dd713e30459c477791e9ee4
+Description: The dawel Vaultwarden Backup
+
