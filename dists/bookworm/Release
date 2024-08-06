@@ -1,0 +1,65 @@
+Origin: dwOS
+Label: dwOS
+Suite: stable
+Codename: bookworm
+Date: Tue, 06 Aug 2024 14:59:11 UTC
+Architectures: amd64
+Components: main extra docker
+Description: dwOS Repository
+MD5Sum:
+ ce8ff672512309cbed709eedfbf31bb6 7310 main/binary-amd64/Packages
+ 3bfd9f4b5c936227d17658d1da8447c0 2535 main/binary-amd64/Packages.gz
+ 444d02ec2e5bc8fef5155dbbc851b8b0 106 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 9460d73c14077699312c9f7a82accb44 107 main/source/Release
+ 9d54f260676fb80840c321078219d06e 14061 extra/binary-amd64/Packages
+ 53d70bf5389cbc476de0e3e4b53c2b0b 4929 extra/binary-amd64/Packages.gz
+ 9642f3d104715942ca0224efa3935b96 107 extra/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 extra/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 extra/source/Sources.gz
+ 88d793d03c95726b07166981cdb85ee3 108 extra/source/Release
+ adc6879b7b420c270b90c3375b634fcb 8925 docker/binary-amd64/Packages
+ 071ef7765751737d4fc0cee8afbbc360 2605 docker/binary-amd64/Packages.gz
+ f72c9507ed7938c4cf542ed9222ff445 108 docker/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 docker/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 docker/source/Sources.gz
+ 7d9296fa352ba9e1a30e45e2fe49128b 109 docker/source/Release
+SHA1:
+ 7307772408069fed1d063b4a36de25d354946875 7310 main/binary-amd64/Packages
+ 84cac0877c9d85398913f347de4b0c81211ba0c7 2535 main/binary-amd64/Packages.gz
+ 74685a2e24eb7fc2679ad394c74fce9bc432a1f6 106 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 30c7be4504031c533b4eb89138de50d264398c1d 107 main/source/Release
+ 4ecdd837d6860546fd1444f3b029cf7272e45fed 14061 extra/binary-amd64/Packages
+ b7a57e8574b3372c75b0704f0d069af84c03a1c2 4929 extra/binary-amd64/Packages.gz
+ b8fa897eda38a524cbf897f36708801de229a0e7 107 extra/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 extra/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 extra/source/Sources.gz
+ ce64d170e07f8ef7d7ba80f5aab6a9dc00457385 108 extra/source/Release
+ 275e8c57fa9f87ebcc6c34f587de6e26ae57b935 8925 docker/binary-amd64/Packages
+ fb9c57aba155783a30bc108420c37bcf1f597527 2605 docker/binary-amd64/Packages.gz
+ 3d676353ec7d932b2405cf8fccac3dfb1255a012 108 docker/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 docker/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 docker/source/Sources.gz
+ 8dd7213552c9f0c828a11eeee1d8fa0cfc1bea99 109 docker/source/Release
+SHA256:
+ 523b7424af0b62a24d204dc0bec4dd83946c74520f6b002899a31ee0b5e509c8 7310 main/binary-amd64/Packages
+ cb44e7d0e2cd254b0c0b1b65012a2b1bb14242eecb2139a959fb8bf300d41cb2 2535 main/binary-amd64/Packages.gz
+ c19d5a86fd2819de446999586beb2a9835ee63dc77162ccfa5a00fad449bb48c 106 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ f984af57208e3d1958fa75143b7279b5ece8804444d980939928735378c0e7b8 107 main/source/Release
+ d178d35f76d1141deba17a651bdaf92a954db256905e1450b21b12e5bfe7ef3b 14061 extra/binary-amd64/Packages
+ 9cc5b5a1e1e710dd0686bcc70a95a375910c7d345f44c19c9d933ab13809e998 4929 extra/binary-amd64/Packages.gz
+ c0f415f4f265c47cefbab8bf1360427ee37fc1159dc13d41f5d86b2d2145a470 107 extra/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 extra/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 extra/source/Sources.gz
+ 3769a4fa04b64b4f3296384920301cbdd3325a9e00022eccd1ef70d3148b08ab 108 extra/source/Release
+ ca6fc1bb1e0192ae8fc62cb584254b2c43bd1725d4134ef680fd8ead7054d0ed 8925 docker/binary-amd64/Packages
+ 97e43c3a7aab480a1b7ff39740249ca73c3f342b2bebf90f59e0510d597f3946 2605 docker/binary-amd64/Packages.gz
+ 7ab23e4ac41747d839048309f217cfc0d766ecc91c207c8507eec03c70c1a5bc 108 docker/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 docker/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 docker/source/Sources.gz
+ 275bb3fe0d04ca454a05db5def0fd042648650753ae2d6eacad0c275984c0ee6 109 docker/source/Release

@@ -1,0 +1,413 @@
+Package: calamares-settings-debian
+Version: 12.0.9-1
+Architecture: all
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 291
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Priority: optional
+Section: utils
+Filename: pool/extra/c/calamares-settings-debian/calamares-settings-debian_12.0.9-1_all.deb
+Size: 219024
+SHA256: 6548c57e4783e7c261700dcf63af58a148a827873e46ab39316168d3838bad5b
+SHA1: 976148c1a4ebc1fbed9fbd4941c131a796833bd8
+MD5sum: 73bbbb0bb9a4a0c4e0ac15bbbb6592f3
+Description: Debian theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
+Package: dw-alsa
+Version: 0.0.1-0
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 12
+Depends: dw-setup, alsa-utils
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-alsa/dw-alsa_0.0.1-0_amd64.deb
+Size: 1988
+SHA256: 8ada84a6dde34d27e8cb12f054e3d6ec319792f12c0c0027fd2c7d8b5139ce10
+SHA1: 7980c7e5aa10d19de548d2c7e1da75bbc4ff0df8
+MD5sum: 5527595376159bc664f5084a3d5d1181
+Description: The dawel alsa utils
+
+Package: dw-anacronsynccron
+Version: 0.0.1-3
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 22
+Depends: dw-setup, anacron
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-anacronsynccron/dw-anacronsynccron_0.0.1-3_amd64.deb
+Size: 3512
+SHA256: 25c315f7c7ba9ec5c63ebe88b9293706d5f7c4f611c81a2dd119686805002ae4
+SHA1: fd3543743769570bf2a9ff709e80a916294daa64
+MD5sum: e04b505650b8a6f52fc64f4bf4e87d70
+Description: The dawel anacron with cron sync
+
+Package: dw-apache2
+Version: 2.4.57-2
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 1046
+Depends: dw-setup, dw-cert, apache2, php8.2, php8.2-mbstring, php8.2-xml, php8.2-soap, php8.2-sqlite3, php8.2-zip, php8.2-gd, php8.2-curl
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-apache2/dw-apache2_2.4.57-2_amd64.deb
+Size: 940124
+SHA256: 8714cf8e5a2642186fbcc32581c5821b4f932bf1fad5318e55618bd2b232fae1
+SHA1: ed84884cd25c96dfbd68fe1bd00b13ce0620cb8b
+MD5sum: cdd773f340c3e9acaa28997c47630825
+Description: The dawel Apache2 HTTP Server
+
+Package: dw-aptcache-server
+Version: 0.0.1-0
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 10
+Depends: dw-setup, apt-cacher-ng
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-aptcache-server/dw-aptcache-server_0.0.1-0_amd64.deb
+Size: 1676
+SHA256: fe28b5b8760cd00fe7dce9f97133d577e3c47dfbd2049b272bbbeebc573670be
+SHA1: 86d75585397ea523da2c17826efe0378d3ff164b
+MD5sum: bdd000c53f0da28c6a901325086dc455
+Description: The dawel apt cacher
+
+Package: dw-avahi
+Version: 0.14.1-2
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 9
+Depends: dw-setup, libnss-mdns
+Priority: extra
+Section: admin
+Filename: pool/extra/d/dw-avahi/dw-avahi_0.14.1-2_amd64.deb
+Size: 1644
+SHA256: ed751370e0ecf441004b1f3fc50b4fe9fde39e92cc103954f5196e5b3d43235c
+SHA1: 7a8a908b70922fa03baecede1d10a060bcc1e924
+MD5sum: bf75038e4ddc05ef0887c6bdac4374cb
+Description: The dawel Linux Apple Bonjour
+
+Package: dw-bmax-b1
+Version: 0.0.1-0
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 18
+Depends: dw-setup, firmware-realtek, firmware-misc-nonfree
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-bmax-b1/dw-bmax-b1_0.0.1-0_amd64.deb
+Size: 2572
+SHA256: f57c8f47715572fa819989ca220730277aa1604e8d84dc84df6b1f046c87d684
+SHA1: 8bbd3ecbb7ee5815fc4660bbe5706e056c8d9584
+MD5sum: c1ceff23961cdef3b9488fd6417ddbce
+Description: The dawel BMAX B1 Driver
+
+Package: dw-clone
+Version: 0.0.1-10
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 61
+Depends: dw-setup, parted, rsync, dosfstools
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-clone/dw-clone_0.0.1-10_amd64.deb
+Size: 7816
+SHA256: f6b8aec630c35946cf2839b1f1f0518fb48cb2a1bb52648ad464471e90914a38
+SHA1: dd6ac68c75e183bce4e2bcf6f198b697caa689a5
+MD5sum: 9111a5f97b2552120f90ebe586946831
+Description: The dawel dw-os Clone
+
+Package: dw-ddnsclient
+Version: 0.0.1-5
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 57
+Depends: dw-setup, curl, dnsutils
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-ddnsclient/dw-ddnsclient_0.0.1-5_amd64.deb
+Size: 6956
+SHA256: 35e4c6e2bb4f203d10512ea5def7a2204fe78b4aa168e4a121cd07e2a5e63fb9
+SHA1: e1eb0014cdba7c6ec68f51b3fe373d508693c44b
+MD5sum: 30dee507a605f9c60f262a5bbf9480c3
+Description: The dawel DDNS Update Client
+
+Package: dw-diskbackup
+Version: 0.0.4-9
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 65
+Depends: dw-setup, parted, rsync, beep, dw-usbmount
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-diskbackup/dw-diskbackup_0.0.4-9_amd64.deb
+Size: 8204
+SHA256: cb65bce13089e7a7cba2561c5c3c5e7b8606f488b4eafaaf14a1f0a18e7514ab
+SHA1: 343349d12beccc81da31748ed7de102a8d9f93da
+MD5sum: d053f422450da04845ef5de983be4ac2
+Description: The dawel backup
+
+Package: dw-diskstatus
+Version: 0.0.1-5
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 47
+Depends: dw-setup
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-diskstatus/dw-diskstatus_0.0.1-5_amd64.deb
+Size: 5252
+SHA256: a34bd14b88354df792e6c2d0d55cde92f8638ca7b5b72f4beb922421a2dd1f96
+SHA1: a3ddaad9e68869f6ae07e23229266d7088f40dbe
+MD5sum: a8968eba414fbcc0bc8215c6dd63772f
+Description: The dawel DiskStatus Tool
+
+Package: dw-hdsentinel
+Version: 0.20c.10851-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 3548
+Depends: dw-setup
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-hdsentinel/dw-hdsentinel_0.20c.10851-1_amd64.deb
+Size: 1205748
+SHA256: 94b96a246e4690fd4e80fa36101d14b2a44424718d74c017433d43ccf0a58844
+SHA1: 588fb9f2e3c1930b333c915eac96460be10e249b
+MD5sum: 857f087e34c8d2339c07a88f3ad8ed1f
+Description: The dawel HDSentinel Tool
+
+Package: dw-knockd
+Version: 0.0.1-4
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 52
+Depends: dw-setup, knockd (>= 99.8-2)
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-knockd/dw-knockd_0.0.1-4_amd64.deb
+Size: 6524
+SHA256: a1fc4bb9d1d4a53887fac2d2f70744cae18b2464dfe955f7e4a53be8dc479481
+SHA1: e5355a858ce7e4ce7e8ab0e7257761a00f9ac1fb
+MD5sum: 5d30eab6044e5b2f69397413445f045b
+Description: The dawel knockd
+
+Package: dw-lstats
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 10824
+Depends: dw-setup, dw-apache2, procps
+Priority: extra
+Section: admin
+Filename: pool/extra/d/dw-lstats/dw-lstats_0.1.0-1_amd64.deb
+Size: 5301220
+SHA256: eb01855c56f194fd93da822b351cc50dc8c10d1616632999b859b32e4d38e886
+SHA1: 6f2724c5db102832fd8e0908bbfabf3deba57b9b
+MD5sum: 016b3df4697397f3169fc45f341c31ee
+Description: The dawel Linux lstats Dashboard
+
+Package: dw-mailserver
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 140
+Depends: dw-setup, dw-cert, dnsutils, coreutils, s-nail, postfix, postfix-policyd-spf-python, dovecot-core, dovecot-pop3d, dovecot-imapd, dovecot-lmtpd, dovecot-sieve, dovecot-managesieved, libsasl2-2, libsasl2-modules, opendkim, opendkim-tools
+Conflicts: bsd-mailx, dw-msmtp, heirloom-mailx, mailutils
+Provides: dw-sendmail, mailx
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-mailserver/dw-mailserver_1.0-1_amd64.deb
+Size: 18520
+SHA256: f62c4e28bc5648669f158a904ea93dc07f7ed54e09db486f5bff40239f09d313
+SHA1: eb07455d9dcc13fb2aa89ea27aaff56c86c3f0f9
+MD5sum: ae4ebde9a2e69fb7cf61eee5ed6c4b94
+Description: The dawel Mail-Server
+ . Postfix Dovecot Opendkim s-nail
+
+Package: dw-msmtp
+Version: 1.8.23-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 55
+Depends: dw-setup, msmtp-mta, s-nail
+Conflicts: bsd-mailx, dw-mailserver, exim4-config, heirloom-mailx, mailutils
+Provides: dw-sendmail, mailx
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-msmtp/dw-msmtp_1.8.23-1_amd64.deb
+Size: 6736
+SHA256: b078886e60b96d45ba486aa74d2b3aafe3d4f428908650c7ba9efb50b5bec1ad
+SHA1: 456ea42ac9af4585d5fe66058e67b9f2abe71059
+MD5sum: 542f9ccd5365497dee92fd82520ddb01
+Description: The dawel Extremely simple MTA to get mail off the System to a Mailhub
+
+Package: dw-nut-client
+Version: 2.7.4-4
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 53
+Depends: dw-setup, nut-client
+Conflicts: dw-nut-server, dw-powerpanel, powerpanel
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-nut-client/dw-nut-client_2.7.4-4_amd64.deb
+Size: 6516
+SHA256: 2b3b8d4cb3ebe25332d934bb1157d26e73ce622c55e91f75cafcfe11f20238ff
+SHA1: baa64842daa37dfd3e7fc87de89fe51914aab588
+MD5sum: f019b0b4c6770ade5f88eedc6f074fe3
+Description: The dawel NUT Client Tool for Ups
+
+Package: dw-nut-server
+Version: 2.7.4-3
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 70
+Depends: dw-setup, nut, nut-server, nut-client, nut-cgi
+Conflicts: dw-nut-client, dw-powerpanel, powerpanel
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-nut-server/dw-nut-server_2.7.4-3_amd64.deb
+Size: 8652
+SHA256: cd60f8ccb6e19be37f7f1df7b433ff4f12e7ef6180c6fd38d5f283eaddbd4d71
+SHA1: 529814530c7f72388e698c57bd0b16bb3345e902
+MD5sum: f6360ce3192833508609bb19456e6429
+Description: The dawel NUT Server Tool for Ups
+
+Package: dw-osbackup
+Version: 0.0.1-6
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 70
+Depends: dw-setup, rsync, nfs-common
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-osbackup/dw-osbackup_0.0.1-6_amd64.deb
+Size: 9420
+SHA256: 947478b09ce95710f6336f03b9f4b7b62be4e7fb9491d4f25f7f5f4c804b361c
+SHA1: 03fa388a100ee38c154f808ff6d75680038b4169
+MD5sum: 4cec0e43309942309cf339337cd59a05
+Description: The dawel dwOS Backup & Restore
+
+Package: dw-rmac
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 1941
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-rmac/dw-rmac_1.0.0-1_amd64.deb
+Size: 1077804
+SHA256: 658f7ff73f85861904fb265be0891a4a15318a819025cd88611dc12e4b5f8849
+SHA1: 2decee091f757212f383cd2c78898f312d72766e
+MD5sum: 8d1df8b131ce75eb629577853ac033f0
+Description: The dawel rmac (Reverse MAC) tool
+
+Package: dw-shelly
+Version: 0.0.2-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 16
+Depends: dw-setup, curl, jq
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-shelly/dw-shelly_0.0.2-1_amd64.deb
+Size: 2200
+SHA256: c70e3f37c56aa9f3e8fa75c2aee3ef237a7045390e0f3581c53d7a72302f3fd4
+SHA1: 291192309451864ce58fc8b92a691bbc21b09f0c
+MD5sum: 4244970f83ad6d777cdbb614685aa08a
+Description: The dawel Shelly Plug Cli
+
+Package: dw-systemd
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 11
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-systemd/dw-systemd_1.0.0-1_amd64.deb
+Size: 1772
+SHA256: 525b3fa8651a86eee25908575ecb0947141286d875f663495477ba96d6afcf6f
+SHA1: a9d1435abae775aefcbe886e618af48befb07408
+MD5sum: a91ff8be54d65041d23882a3e67a3781
+Description: The dawel systemd fix
+
+Package: dw-wake
+Version: 0.0.3-4
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 62
+Depends: dw-setup, coreutils, fping, wakeonlan, dw-shelly
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-wake/dw-wake_0.0.3-4_amd64.deb
+Size: 7152
+SHA256: 8a23e22534427924f3e911c4f45d6e973e2e398e0a4f3813e1359240c552398e
+SHA1: 59b0491c60a74d6107be3a5175cc6a007601ea77
+MD5sum: 2a1e343c4350465067e346654c5589c6
+Description: The dawel wake on lan Server
+
+Package: dw-wg
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 69
+Depends: dw-setup, wireguard, wireguard-tools, qrencode
+Conflicts: wg
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-wg/dw-wg_1.0.0-1_amd64.deb
+Size: 8412
+SHA256: ef9864ea1dd6fee17021d7066f22c252b93f85c60bfad4327ec3b95fc4add0f3
+SHA1: 073ee9e2b2761817dc13bb94f06d0f83c31653a8
+MD5sum: 4c21ae2abd90ce46763459e314e8465d
+Description: The dawel Wireguard
+
+Package: dw-wolcmd
+Version: 0.0.2-2
+Architecture: amd64
+Maintainer: Albert Steiner <alst.ovh@gmail.com>
+Installed-Size: 12176
+Depends: dw-setup, coreutils, jq
+Priority: extra
+Section: system
+Filename: pool/extra/d/dw-wolcmd/dw-wolcmd_0.0.2-2_amd64.deb
+Size: 5992916
+SHA256: 7f3177c1119d51645a9bd886a5ee9388a24f0c058e2e9d86abc741bef7fd5ad1
+SHA1: 8ae1b43213ae04720cba9e5e601cf958df0e322f
+MD5sum: f1b39447617f3d05ba04dd3af6e9b1e6
+Description: The dawel wolcmd service
+
+Package: knockd
+Version: 99.8-2
+Architecture: amd64
+Maintainer: Leo Antunes <costela@debian.org>
+Installed-Size: 102
+Depends: libc6 (>= 2.34), libpcap0.8 (>= 0.9.8), logrotate, lsb-base (>= 11.0.0)
+Homepage: http://www.zeroflux.org/projects/knock
+Priority: optional
+Section: net
+Filename: pool/extra/k/knockd/knockd_99.8-2_amd64.deb
+Size: 28260
+SHA256: 3842429700e2451995965288c741636099e84f3fabea393f529566c5f59a42e9
+SHA1: 8d827575ce90d93f3f612ab35a9fc1d27da2f598
+MD5sum: 614734cbce5d0cdf5ab1b1f39035fead
+Description: small port-knock daemon
+ A port-knock server that listens to all traffic on a given network
+ interface (only Ethernet and PPP are currently supported), looking for
+ a special "knock" sequences of port-hits. A remote system
+ makes these port-hits by sending a TCP (or UDP) packet to a port on the
+ server. When the server detects a specific sequence of port-hits, it
+ runs a command defined in its configuration file. This can be used to
+ open up holes in a firewall for quick access.
+
